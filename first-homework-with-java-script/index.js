@@ -11,4 +11,4 @@ let finalPrice = total + (total * taxRate);
 
 // Show result in console
 console.log("Number of phones: " + phones);
-console.log("Final price with 5%tax: $" + finalPrice);
+console.log("Final price with 5%tax:" + finalPrice);
