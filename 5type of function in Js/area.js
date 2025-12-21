@@ -1,5 +1,3 @@
-
-
 function showValueAndType(value) {
     console.log("Value:", value);
     console.log("Type:", typeof value);
