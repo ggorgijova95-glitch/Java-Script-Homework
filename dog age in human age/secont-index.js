@@ -19,20 +19,28 @@ function humanToDogAge(humanYears) {
 }
 
 // Ask user what they want to calculate
-let choice = prompt("Type 'dog' to convert dog → human\nType 'human' to convert human → dog");
+let choice = prompt(
+    "Type 'dog' to convert dog → human\nType 'human' to convert human → dog"
+);
 
 if (choice === "dog") {
     let dogAge = Number(prompt("Enter dog's age:"));
     let result = dogToHumanAge(dogAge);
+
     console.log("Dog age:", dogAge);
     console.log("Human age:", result);
+
+    alert("Dog age: " + dogAge + "\nHuman age: " + result);
 } 
 else if (choice === "human") {
     let humanAge = Number(prompt("Enter human age:"));
     let result = humanToDogAge(humanAge);
+
     console.log("Human age:", humanAge);
     console.log("Dog age:", result.toFixed(1));
+
+    alert("Human age: " + humanAge + "\nDog age: " + result.toFixed(1));
 } 
 else {
-    console.log("Invalid choice");
+    alert("Invalid choice");
 }
