@@ -29,5 +29,5 @@ for (let i = 0; i < 5; i++) {
 // Call function and display result
 let result = sumArray(numbers);
 
-console.log("Result: " + result);
-alert("Result: " + result);
+console.log(`The sum of the numbers is: ${result}`);
+alert(`The sum of the numbers is: ${result}`);
