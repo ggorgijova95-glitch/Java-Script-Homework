@@ -1,9 +1,9 @@
-// Ask the user how many numbers they want to enter
-let count = parseInt(prompt("How many numbers do you want to enter?"));
-
 // Initialize max and min as null
 let max = null;
 let min = null;
+
+// Ask the user how many numbers they want to enter
+let count = parseInt(prompt("How many numbers do you want to enter?"));
 
 // Loop to get each number
 for (let i = 1; i <= count; i++) {
