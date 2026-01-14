@@ -11,6 +11,9 @@ let myArray = [
   true,
   "JS"
 ];
+// Calling the function to remove falsy values
+let cleanedArray = removeFalsyValues(myArray);
+
 // Function to remove falsy values from an array
 function removeFalsyValues(array) {
   let result = [];
@@ -24,7 +27,9 @@ function removeFalsyValues(array) {
   return result;
 }
 // Using the function to clean the array
-let cleanedArray = removeFalsyValues(myArray);
+console.log("Original Array:");
+console.log(myArray);
+console.log("Array after removing falsy values:");
 console.log(cleanedArray);
 // Output: [10, "Hello", 25, true, "JS"]
 
