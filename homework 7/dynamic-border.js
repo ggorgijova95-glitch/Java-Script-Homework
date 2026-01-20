@@ -2,6 +2,7 @@ function createTable() {
   // Ask user for rows and columns
   let rows = parseInt(prompt("Enter number of rows:"));
   let columns = parseInt(prompt("Enter number of columns:"));
+
   if (isNaN(rows) || isNaN(columns) || rows <= 0 || columns <= 0) {
     alert("Please enter valid positive integers for rows and columns.");
     return;
@@ -27,3 +28,6 @@ function createTable() {
     table.appendChild(tr);
   }
 }
+
+// Add event listener to the button
+document.getElementById("createBtn").addEventListener("click", createTable);
