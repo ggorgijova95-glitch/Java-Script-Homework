@@ -2,7 +2,13 @@
 $(document).ready(function(){
     // Handle button click to greet user
 $("#greet-btn").click(function(){
-    $("#greet-message").text("Hello, User! Welcome to our website.");
+    let name=$("#nameInput").val().trim();
+    if(name===""){
+        $("#greet-message").text("Please enter your name.");
+    }else{
+        $("#greet-message").text("Hello there "+name+"!");
+    }
+    
 });
 });
 

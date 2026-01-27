@@ -18,12 +18,12 @@ $(document).ready(function () {
             return;
         }
         if (!isNaN(text)) {
-            $("#message").text("❌ Text cannot be a number");
+            $("#message").text("Text cannot be a number");
             return;
         }
 
         if (!isValidColor(color)) {
-            $("#message").text("❌ Invalid color");
+            $("#message").text("Invalid color");
             return;
         }
 
