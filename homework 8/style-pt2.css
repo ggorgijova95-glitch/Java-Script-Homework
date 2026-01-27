@@ -11,3 +11,20 @@ input, button {
 #message {
     color: red;
 }
+#textInput {
+    width: 200px;
+    margin-right: 10px;
+    border: 2px solid #2ecc71;
+}
+
+#colorInput {
+    width: 200px;
+    margin-right: 10px;
+    border: 2px solid #2ecc71;
+}
+#generateBtn {
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

@@ -10,3 +10,14 @@ input, button {
     color: #2c3e50;
     margin-top: 20px;
 }
+#nameInput {
+    width: 200px;
+    margin-right: 10px;
+    border: 2px solid #3498db;
+}
+#greet-btn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
